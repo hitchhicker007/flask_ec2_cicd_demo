@@ -7,7 +7,7 @@ users = []
 
 @app.route('/')
 def home():
-    return "Welcome to the Flask API!"
+    return "This works, hooorrreyyy!!!"
 
 @app.route('/users', methods=['GET'])
 def get_users():

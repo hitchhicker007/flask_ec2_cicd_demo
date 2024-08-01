@@ -7,7 +7,7 @@ users = []
 
 @app.route('/')
 def home():
-    return "This works, hooorrreyyy!!!"
+    return "Kem Palti"
 
 @app.route('/users', methods=['GET'])
 def get_users():
